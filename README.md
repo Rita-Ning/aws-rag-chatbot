@@ -29,7 +29,7 @@ Built as a Solutions Architect portfolio PoC — demonstrating how enterprises c
 | Vector Store   | FAISS (local)                  |
 | Embeddings     | OpenAI text-embedding-3-small  |
 | UI             | Streamlit                      |
-| Knowledge Base | AWS Documentation PDFs |
+| Knowledge Base | AWS Documentation PDFs         |
 | Knowledge Base | AWS Documentation PDFs         |
 
 ## Features
