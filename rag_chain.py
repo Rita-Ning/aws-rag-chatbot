@@ -114,7 +114,8 @@ def ask(chain, question, session_id="default"):
     return answer
 
 if __name__ == "__main__":
-    print("=== Day 5: RAG with AWS Bedrock ===\n")
+    print("=== AWS RAG Chatbot ===\n")
+
     vectorstore = load_vectorstore()
     chain = build_chain(vectorstore)
 
@@ -125,5 +126,3 @@ if __name__ == "__main__":
 
     for q in questions:
         ask(chain, q)
-
-    print("=== Day 5 完成！現在用 AWS Bedrock 驅動！===")
